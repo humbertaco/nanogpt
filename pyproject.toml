@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "nanogpt"
+version = "0.1.0"
+description = ""
+authors = ["Humberto Garcia <humberto@connectif.es>"]
+readme = "README.md"
+packages = [{include = "nanogpt"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyter = "^1.0.0"
+notebook = "^7.1.0"
+ipykernel = "^6.29.2"
+nbconvert = "^7.16.1"
+pandas = "^2.2.0"
+torch = "^2.2.0"
+jupyter-contrib-nbextensions = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
